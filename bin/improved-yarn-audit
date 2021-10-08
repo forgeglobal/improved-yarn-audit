@@ -160,6 +160,7 @@ function printAuditReport(
   Severity: ${formattedSeverity}
   Modules: ${affectedModules}
   URL: ${a.url}
+  ID: ${a.id}
 `)
   })
 
