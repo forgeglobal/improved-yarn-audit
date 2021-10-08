@@ -160,7 +160,7 @@ function printAuditReport(
   Severity: ${formattedSeverity}
   Modules: ${affectedModules}
   URL: ${a.url}
-  ID: ${a.id}
+  Legacy NPM ID: ${a.id} (use this ID for exclusions)
 `)
   })
 
